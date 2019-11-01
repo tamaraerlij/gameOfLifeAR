@@ -10,10 +10,8 @@ import UIKit
 import SceneKit
 import ARKit
 
+// Código: https://www.clientresourcesinc.com/2018/10/11/arkit-cube-game/
 class ViewController: UIViewController, ARSCNViewDelegate{
-    
-    
-    
     @IBOutlet weak var sceneView: ARSCNView!
     private var isSpawned = false
     private var cube: CubeOfLife?
