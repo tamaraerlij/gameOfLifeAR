@@ -14,6 +14,7 @@
 		95302C47236CAEFC002F2FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95302C46236CAEFC002F2FE5 /* Assets.xcassets */; };
 		95302C4A236CAEFC002F2FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95302C48236CAEFC002F2FE5 /* LaunchScreen.storyboard */; };
 		95302C52236CB051002F2FE5 /* CellOfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95302C51236CB050002F2FE5 /* CellOfLife.swift */; };
+		95302C54236CB119002F2FE5 /* CubeOfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95302C53236CB118002F2FE5 /* CubeOfLife.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		95302C49236CAEFC002F2FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95302C4B236CAEFC002F2FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95302C51236CB050002F2FE5 /* CellOfLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellOfLife.swift; sourceTree = "<group>"; };
+		95302C53236CB118002F2FE5 /* CubeOfLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeOfLife.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				95302C3D236CAEF7002F2FE5 /* AppDelegate.swift */,
 				95302C3F236CAEF7002F2FE5 /* ViewController.swift */,
 				95302C51236CB050002F2FE5 /* CellOfLife.swift */,
+				95302C53236CB118002F2FE5 /* CubeOfLife.swift */,
 				95302C41236CAEF7002F2FE5 /* Experience.rcproject */,
 				95302C43236CAEF7002F2FE5 /* Main.storyboard */,
 				95302C46236CAEFC002F2FE5 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95302C52236CB051002F2FE5 /* CellOfLife.swift in Sources */,
+				95302C54236CB119002F2FE5 /* CubeOfLife.swift in Sources */,
 				95302C40236CAEF7002F2FE5 /* ViewController.swift in Sources */,
 				95302C3E236CAEF7002F2FE5 /* AppDelegate.swift in Sources */,
 				95302C42236CAEF7002F2FE5 /* Experience.rcproject in Sources */,
